@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99CC"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="98dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/prodi"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@mipmap/apel"></ImageView>
+
+        <TextView
+            android:id="@+id/prodi"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="APEL"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/prodi"
+            android:layout_marginLeft="10dp"
+            android:text="NAMA ILMIAH"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/aldy"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/nama"
+            android:layout_alignBottom="@id/nama"
+            android:text=": MALUS DOMESTICA"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/king"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/nama"
+            android:layout_marginLeft="10dp"
+            android:text="KINGDOM"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/king"
+            android:layout_alignBottom="@id/king"
+            android:text=": PLANTAE"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/fam"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/king"
+            android:layout_marginLeft="10dp"
+            android:text="FAMILY"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/fam"
+            android:layout_alignBottom="@id/fam"
+            android:text=": ROSACEAE"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/jk"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/fam"
+            android:layout_marginLeft="10dp"
+            android:text="ORDO"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/jk"
+            android:layout_alignBottom="@id/jk"
+            android:text=": ROSALES"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/kelas"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/jk"
+            android:layout_marginLeft="10dp"
+            android:text="KELAS"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/kelas"
+            android:layout_alignBottom="@id/kelas"
+            android:text=": MAGNOLIOPSIDA"
+            android:textSize="15dp"
+            >
+        </TextView>
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/prodi"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/kelas"
+            android:text="KEMBALI"
+            android:onClick="move"
+            >
+        </Button>
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
